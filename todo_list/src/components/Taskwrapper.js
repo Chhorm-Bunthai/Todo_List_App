@@ -42,9 +42,8 @@ function Taskwrapper() {
       <h1>TO DO APP</h1>
       <TaskForm addForm={addForm} />
       {todos.map((todo) =>
-        todo.isEditing ? (
-        
-            console.log('hello')
+        todo.isEditing ? ( 
+        console.log('hello')
         ) : (
           <Task
             key={todo.id}

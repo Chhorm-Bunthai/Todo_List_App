@@ -52,3 +52,22 @@ h1{
 .input::placeholder{
     text-indent: 2px;
 }
+.Task{
+    width: 90%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #B9B4C7;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: #fff;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.icons{
+    display: flex;
+    gap: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+}
