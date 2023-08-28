@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import TaskForm from "./TaskForm";
 import Task from "./Task";
+import TaskEdit from "./TaskEdit";
 
 
 function Taskwrapper() {
@@ -34,6 +35,12 @@ function Taskwrapper() {
       )
     );
   };
+  const editTask = (task, id) =>{
+    setTodos(todos.map((todo) =>
+      todo.id === id ? {...todo, task,isEditing : !todo.isEditing}:todo
+    )
+  );
+  };
 
 
 
@@ -43,7 +50,7 @@ function Taskwrapper() {
       <TaskForm addForm={addForm} />
       {todos.map((todo) =>
         todo.isEditing ? ( 
-        console.log('hello')
+          <TaskEdit editTodo={editTask} task={todo} />
         ) : (
           <Task
             key={todo.id}

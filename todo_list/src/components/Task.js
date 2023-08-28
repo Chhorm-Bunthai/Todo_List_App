@@ -13,5 +13,4 @@ function Task({task, deleteTodo,editTodo,toggleComplete}) {
     </div>
   )
 }
-
 export default Task;
