@@ -3,12 +3,22 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPenToSquare } from '@fortawesome/free-solid-svg-icons'
 import { faTrash } from '@fortawesome/free-solid-svg-icons'
 function Task({task, deleteTodo,editTodo,toggleComplete}) {
+  const handleChange = () => toggleComplete(task.id);
+  const toggleChange = function(){
+    editTodo(task.id)
+  }
+  const deleteTask = function(){
+     deleteTodo(task.id)
+  }
   return (
     <div className="Task">
-        <p className={`${task.completed ? 'completed' : ""}`} onClick={() => toggleComplete(task.id)}>{task.task}</p>
+      <div className='title'>
+        <input className='checkbox' type='checkbox' checked = {task.completed} onChange={handleChange}/>
+        <p className={`${task.completed ? 'completed' : ""}`} onClick={handleChange}>{task.task}</p>
+        </div>
         <div className='icons'>
-          <FontAwesomeIcon className='edit' icon={faPenToSquare} onClick={() => editTodo(task.id)} />
-          <FontAwesomeIcon className='delete' icon={faTrash} onClick={() => deleteTodo(task.id)} />
+          <FontAwesomeIcon className='edit' icon={faPenToSquare} onClick={toggleChange} />
+          <FontAwesomeIcon className='delete' icon={faTrash} onClick={deleteTask} />
         </div>
     </div>
   )

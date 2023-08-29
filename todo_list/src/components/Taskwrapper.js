@@ -61,6 +61,7 @@ function Taskwrapper() {
           />
         )
       )}
+      {todos.length < 1 ? '': <p className="totalTask">{`You have ${todos.length} tasks`}</p>}
     </div>
   );
 }

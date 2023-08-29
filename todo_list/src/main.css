@@ -71,3 +71,26 @@ h1{
     margin-right: 15px;
     cursor: pointer;
 }
+
+.completed{
+    text-decoration: line-through;
+    color: black;
+    text-decoration-color: black;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.checkbox{
+    margin-top: 6px;
+}
+
+.totalTask{
+    margin-bottom: 0;
+    color: #fff;
+    font-weight: 600;
+    font-size: large;
+}
