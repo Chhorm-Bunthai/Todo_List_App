@@ -69,6 +69,7 @@ h1{
     padding-left: 10px;
     cursor: pointer;
     font-size: 24px;
+    
 }
 .icons{
     display: flex;
@@ -88,6 +89,7 @@ h1{
     justify-content: space-between;
     align-items: center;
     gap: 5px;
+    overflow: hidden;
 }
 
 .checkbox{

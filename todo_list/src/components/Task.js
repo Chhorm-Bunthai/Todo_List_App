@@ -15,7 +15,7 @@ function Task({task, deleteTodo,editTodo,toggleComplete}) {
       <div className='title'>
         <input className='checkbox' type='checkbox' checked = {task.completed} onChange={handleChange}/>
         <p className={`${task.completed ? 'completed' : ""}`} onClick={handleChange}>{task.task}</p>
-        </div>
+      </div>
         <div className='icons'>
           <FontAwesomeIcon className='edit' icon={faPenToSquare} onClick={toggleChange} />
           <FontAwesomeIcon className='delete' icon={faTrash} onClick={deleteTask} />
