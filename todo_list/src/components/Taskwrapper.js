@@ -46,7 +46,7 @@ function Taskwrapper() {
 
   return (
     <div className="TaskWrapper">
-      <h1>TO DO APP</h1>
+      <p className="header">TO DO APP</p>
       <TaskForm addForm={addForm} />
       {todos.map((todo) =>
         todo.isEditing ? ( 

@@ -6,9 +6,11 @@ body{
 .App{
     text-align: center;
 }
-h1{
+.header{
     color: #fff;
     text-decoration: underline;
+    font-size: 40px;
+    font-weight: 700;
 }
 .TaskWrapper{
     width: 80%;
