@@ -12,7 +12,7 @@ function TaskEdit({ editTodo, task }) {
   return (
     <form onSubmit={handleSubmit} className="TaskForm">
         <input type="text" value={value} onChange={handleChange} className="input" placeholder='Add your task' />
-        <button type="submit" className='btn'>Add</button>
+        <button type="submit" className='btn'>Save</button>
     </form>
   );
 }
