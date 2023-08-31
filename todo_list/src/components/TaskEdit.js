@@ -8,13 +8,13 @@ function TaskEdit({ editTodo, task }) {
   };
   const handleChange = function(e){
     setValue(e.target.value)
-  }
+  };
   return (
-    <form onSubmit={handleSubmit} className="TaskForm">
+    <form onSubmit={handleSubmit} className="task_form">
         <input type="text" value={value} onChange={handleChange} className="input" placeholder='Add your task' />
         <button type="submit" className='btn'>Save</button>
     </form>
   );
-}
+};
 
 export default TaskEdit;

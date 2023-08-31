@@ -6,12 +6,12 @@ function Task({task, deleteTodo,editTodo,toggleComplete}) {
   const handleChange = () => toggleComplete(task.id);
   const toggleChange = function(){
     editTodo(task.id)
-  }
+  };
   const deleteTask = function(){
      deleteTodo(task.id)
-  }
+  };
   return (
-    <div className="Task">
+    <div className="task">
       <div className='title'>
         <input className='checkbox' type='checkbox' checked = {task.completed} onChange={handleChange}/>
         <p className={`${task.completed ? 'completed' : ""}`} onClick={handleChange}>{task.task}</p>
@@ -21,6 +21,6 @@ function Task({task, deleteTodo,editTodo,toggleComplete}) {
           <FontAwesomeIcon className='delete' icon={faTrash} onClick={deleteTask} />
         </div>
     </div>
-  )
-}
+  );
+};
 export default Task;

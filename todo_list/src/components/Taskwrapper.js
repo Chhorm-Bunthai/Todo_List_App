@@ -45,7 +45,7 @@ function Taskwrapper() {
 
 
   return (
-    <div className="TaskWrapper">
+    <div className="task_wrapper">
       <p className="header">TO DO APP</p>
       <TaskForm addForm={addForm} />
       {todos.map((todo) =>
@@ -60,10 +60,10 @@ function Taskwrapper() {
             toggleComplete={toggleComplete}
           />
         )
-      )}
-      {todos.length < 1 ? '': <p className="totalTask">{`You have ${todos.length} tasks`}</p>}
+      )};
+      {todos.length < 1 ? '': <p className="total_task">{`You have ${todos.length} tasks`}</p>}
     </div>
   );
-}
+};
 
 export default Taskwrapper;
