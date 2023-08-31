@@ -14,7 +14,7 @@ function TaskForm({addForm}) {
         setValue(e.target.value)
       };
   return (
-    <form onSubmit={handleSubmit} className='task_form'>
+    <form onSubmit={handleSubmit} className='task-form'>
         <input type='text' value={value} onChange={handleChange} className='input' placeholder='Add your task' />
         <button type='submit' className='btn'>Add</button>
     </form>

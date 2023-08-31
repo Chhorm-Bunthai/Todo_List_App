@@ -10,11 +10,11 @@ body{
 .header{
     color: #fff;
     text-decoration: underline;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 700;
     font-family: 'Lato', sans-serif;
 }
-.task_wrapper{
+.task-wrapper{
     width: 80%;
     margin:  100px auto;
     display: flex;
@@ -25,7 +25,7 @@ body{
     padding-bottom: 20px;
 }
 
-.task_form{
+.task-form{
     width: 80%;
     height: 50px;
     display: flex;
@@ -41,17 +41,17 @@ body{
     outline: none;
     border-radius:  5px 0 0 5px ;
     color: rgb(55, 53, 53);
-    font-size: 24px;
+    font-size: 18px;
     font-family: 'Lato', sans-serif;
 }
 .btn{
     height: 44px;
-    border: 2px solid #B9B4C7;
+    border: 1px solid #4477CE;
     padding-bottom: 1px;
     color: #fff;
     outline: none;
     border-radius: 0 5px 5px 0;
-    background-color: #B9B4C7;
+    background-color: #4477CE;
     cursor: pointer;
     font-size: 18px;
     font-family: 'Lato', sans-serif;
@@ -67,13 +67,13 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #B9B4C7;
+    background-color: #B8B4C1;
     margin-bottom: 20px;
     border-radius: 5px;
     color: #fff;
     padding-left: 10px;
     cursor: pointer;
-    font-size: 24px; 
+    font-size: 18px; 
 }
 .title{
     display: flex;
@@ -103,15 +103,15 @@ body{
     margin-top: 6px;
 }
 
-.total_task{
-    margin-bottom: 0;
+.total-task{
     color: #fff;
     font-weight: 600;
     font-size: large;
     font-family: 'Lato', sans-serif;
+    font-size: 24px;
 }
 @media only screen and (max-width: 390px) {
-    .task_wrapper{
+    .task-wrapper{
         margin-top: 50px;
     }
     h1 {
