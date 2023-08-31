@@ -11,7 +11,7 @@ function Task({task, deleteTodo,editTodo,toggleComplete}) {
      deleteTodo(task.id)
   };
   return (
-    <div className="task">
+    <div className='task'>
       <div className='title'>
         <input className='checkbox' type='checkbox' checked = {task.completed} onChange={handleChange}/>
         <p className={`${task.completed ? 'completed' : ""}`} onClick={handleChange}>{task.task}</p>

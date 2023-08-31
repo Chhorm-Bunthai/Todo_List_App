@@ -1,7 +1,7 @@
-import React, { useState } from "react";
-import TaskForm from "./TaskForm";
-import Task from "./Task";
-import TaskEdit from "./TaskEdit";
+import React, { useState } from 'react';
+import TaskForm from './TaskForm';
+import Task from './Task';
+import TaskEdit from './TaskEdit';
 
 
 function Taskwrapper() {
@@ -45,8 +45,8 @@ function Taskwrapper() {
 
 
   return (
-    <div className="task_wrapper">
-      <p className="header">TO DO APP</p>
+    <div className='task_wrapper'>
+      <p className='header'>TO DO APP</p>
       <TaskForm addForm={addForm} />
       {todos.map((todo) =>
         todo.isEditing ? ( 
@@ -61,7 +61,7 @@ function Taskwrapper() {
           />
         )
       )};
-      {todos.length < 1 ? '': <p className="total_task">{`You have ${todos.length} tasks`}</p>}
+      {todos.length < 1 ? '': <p className='total_task'>{`You have ${todos.length} tasks`}</p>}
     </div>
   );
 };
