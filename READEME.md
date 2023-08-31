@@ -21,3 +21,7 @@ Convention guide can be access there 👉[[Here]](https://cumbersome-lift-045.no
 
 
 # Git flow methods
+
+# other documents
+- [[figma]](https://www.figma.com/file/4rL8AKzi7I3nHVh1KbxfwY/Todo-App-'s-UI?type=design&node-id=0%3A1&mode=design&t=Apm9FaXf2UhJsEsR-1)
+- [[Appflow]](https://drive.google.com/file/d/1GpFPb37-ttkhCWIDdGSLVcB4zrdYL9Bb/view?usp=sharing)
