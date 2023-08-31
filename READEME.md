@@ -11,7 +11,13 @@ Main technologies used in this project include:
 - CSS
 - Git and Github
 
+External libraries :
+- Font Awesome : [[Here]](https://fontawesome.com/v5/docs/web/use-with/react)
+- Google font : lato [[Here]](https://fonts.google.com/specimen/Lato?query=lato)
+
 # Convention Guide
 
-Convention guide can be access there 👉[[Link]]()
+Convention guide can be access there 👉[[Here]](https://cumbersome-lift-045.notion.site/Convention-Guide-Todo-React-App-0d3ba67c6f864c7190b3c35af4ce2e1c?pvs=4)
 
+
+# Git flow methods
