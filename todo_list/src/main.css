@@ -1,20 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Poppins:wght@300;500;900&display=swap');
-body{
+body {
     background-color: #352F44;
     margin:0;
     padding: 0;
 }
-.App{
+.App {
     text-align: center;
 }
-.header{
+.header {
     color: #fff;
     text-decoration: underline;
     font-size: 45px;
     font-weight: 700;
     font-family: 'Lato', sans-serif;
 }
-.task-wrapper{
+.task-wrapper {
     width: 80%;
     margin:  100px auto;
     display: flex;
@@ -25,7 +25,7 @@ body{
     padding-bottom: 20px;
 }
 
-.task-form{
+.task-form {
     width: 80%;
     height: 50px;
     display: flex;
@@ -34,17 +34,17 @@ body{
     margin-bottom: 40px;
     font-family: 'Lato', sans-serif; 
 }
-.input{
+.input {
     width: 80%;
     height: 40px;
     border: 1px solid #B9B4C7;
     outline: none;
     border-radius:  5px 0 0 5px ;
-    color: rgb(55, 53, 53);
+    color: #373535;
     font-size: 18px;
     font-family: 'Lato', sans-serif;
 }
-.btn{
+.btn {
     height: 44px;
     border: 1px solid #4477CE;
     padding-bottom: 1px;
@@ -56,12 +56,12 @@ body{
     font-size: 18px;
     font-family: 'Lato', sans-serif;
 }
-.input::placeholder{
+.input::placeholder {
     text-indent: 5px;
     font-size: 18px;
     font-family: 'Lato', sans-serif;
 }
-.task{
+.task {
     width: 90%;
     height: 80px;
     display: flex;
@@ -75,7 +75,7 @@ body{
     cursor: pointer;
     font-size: 18px; 
 }
-.title{
+.title {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -83,7 +83,7 @@ body{
     overflow: hidden;
     font-family: 'Lato', sans-serif;
 }
-.icons{
+.icons {
     display: flex;
     gap: 25px;
     margin-right: 25px;
@@ -97,13 +97,13 @@ body{
     opacity: 50%;
 }
 
-.checkbox{
+.checkbox {
     width: 20px;
     height: 30px;
     margin-top: 6px;
 }
 
-.total-task{
+.total-task {
     color: #fff;
     font-weight: 600;
     font-size: large;
@@ -111,7 +111,7 @@ body{
     font-size: 24px;
 }
 @media only screen and (max-width: 390px) {
-    .task-wrapper{
+    .task-wrapper {
         margin-top: 50px;
     }
     h1 {

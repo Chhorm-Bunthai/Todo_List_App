@@ -21,7 +21,14 @@ Convention guide can be access there 👉[[Here]](https://cumbersome-lift-045.no
 
 
 # Git flow methods
+I followed Git flow methodology, The final merged branch for project is main branch.
 
+## Branches
+I used 4 branches for my project:
+- main branch: it represents the latest production-ready state of my project. It contains stable code that is suitable for deployment.
+- develop branch: it is where ongoing development and integration of new features occur. It's a branch from which feature branches are created and merged back once the features are complete.
+- feature branch: for each new feature, a dedicated feature branch was created from the develop branch. Feature branches are where the actual coding takes place. To create a feature branch.
+- release branches: To prepare the codebase for a new release, I introduce release branches. A release branch is created from the develop branch and is used to ensure that the upcoming release is stable and ready for deployment. During this phase, only bug fixes and necessary changes are made. Once the release branch is thoroughly tested, it's merged into both the main branch for deployment and the develop branch to incorporate any last-minute fixes back into ongoing development.
 # other documents
-- [[figma]](https://www.figma.com/file/4rL8AKzi7I3nHVh1KbxfwY/Todo-App-'s-UI?type=design&node-id=0%3A1&mode=design&t=Apm9FaXf2UhJsEsR-1)
-- [[Appflow]](https://drive.google.com/file/d/1GpFPb37-ttkhCWIDdGSLVcB4zrdYL9Bb/view?usp=sharing)
+- [figma](https://www.figma.com/file/4rL8AKzi7I3nHVh1KbxfwY/Todo-App-'s-UI?type=design&node-id=0%3A1&mode=design&t=Apm9FaXf2UhJsEsR-1)
+- [Appflow](https://drive.google.com/file/d/1GpFPb37-ttkhCWIDdGSLVcB4zrdYL9Bb/view?usp=sharing)
