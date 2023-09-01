@@ -45,8 +45,10 @@ function Taskwrapper() {
 
 
   return (
-    <div className='task-wrapper'>
-      <p className='header'>TO DO APP</p>
+    <main className='task-wrapper'>
+    <header>
+      <p className='header'>TODO APP</p>
+      </header>
       <TaskForm addForm={addForm} />
       {todos.map((todo) =>
         todo.isEditing ? ( 
@@ -61,8 +63,10 @@ function Taskwrapper() {
           />
         )
       )}
-      {todos.length < 1 ? '': <p className='total-task'>{`You have ${todos.length} tasks`}</p>}
-    </div>
+      <footer>
+      {todos.length < 1 ? '': <p className='total-task'>{`You have ${todos.length} ${todos.length > 1 ? 'tasks' : 'task'}`}</p>}
+      </footer>
+    </main>
   );
 };
 
