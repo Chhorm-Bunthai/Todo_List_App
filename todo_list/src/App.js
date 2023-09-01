@@ -1,4 +1,4 @@
-import './main.css';
+import './App.css';
 import Taskwrapper from './components/Taskwrapper';
 
 function App() {
