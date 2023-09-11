@@ -42,4 +42,14 @@ Convention guide can be access there 👉[[Here]](https://cumbersome-lift-045.no
 - used to quickly patch production releases. Hotfix branches are a lot like release branches and feature branches except they're based on main instead of develop.
 # other documents
 - [figma](https://www.figma.com/file/4rL8AKzi7I3nHVh1KbxfwY/Todo-App-'s-UI?type=design&node-id=0%3A1&mode=design&t=Apm9FaXf2UhJsEsR-1)
-- [Appflow](https://drive.google.com/file/d/1GpFPb37-ttkhCWIDdGSLVcB4zrdYL9Bb/view?usp=sharing)
+- [Appflow](https://drive.google.com/file/d/1GpFPb37-ttkhCWIDdGSLVcB4zrdYL9Bb/view?usp=sharing)\
+
+## Postscript
+- For the most part of this project I did it myself, and I was guided by Modern React with Redux in the learning path and also researching from documentation from Google.
+- I create UI by myself
+- Choosing font, color, etc by myself
+
+### Get help from others
+- I usually ask my teammates for some tips and have them explain to me some concepts that I do not understand
+
+
